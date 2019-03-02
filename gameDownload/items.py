@@ -10,5 +10,14 @@ import scrapy
 
 class GamedownloadItem(scrapy.Item):
     # define the fields for your item here like:
-    game_id = scrapy.Field()
-    pass
+    gameId = scrapy.Field()
+    name = scrapy.Field()
+    desc = scrapy.Field()
+    screenCapture = scrapy.Field()
+    logoUrl = scrapy.Field()
+    size = scrapy.Field()
+    keyWord = scrapy.Field()
+    score = scrapy.Field()
+    category = scrapy.Field()
+    androidDownloadUrl = scrapy.Field()
+    iosDownloadUrl = scrapy.Field()
